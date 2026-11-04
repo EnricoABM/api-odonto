@@ -13,11 +13,6 @@ jobs:
   test-and-build:
     runs-on: ubuntu-latest
 
-    # Executa os comandos "run" dentro da pasta do projeto.
-    defaults:
-      run:
-        working-directory: api-odonto
-
     steps:
       - name: Baixar o codigo
         uses: actions/checkout@v4
